@@ -1,4 +1,4 @@
-# Stock Trading Simulator (Zerodha Clone)
+# Stock Trading Platform (Zerodha Clone)
 
 ## Overview
 This is a full-stack stock trading simulation web application inspired by platforms like Zerodha. 
