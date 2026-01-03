@@ -1,4 +1,4 @@
-# Investiq – Full-Stack Stock Trading Web Application
+# Stock Trading Platform – Full-Stack Stock Trading Web Application
 
 A robust and interactive stock trading platform developed as a Zerodha-inspired clone using MERN stack. Built as part of a hands-on learning project using resources from Apna College.
 
