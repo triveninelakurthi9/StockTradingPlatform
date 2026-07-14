@@ -215,3 +215,9 @@ app.listen(PORT, () => {
   mongoose.connect(uri);
   console.log("DB started!");
 });
+app.get("/", (req, res) => {
+  res.json({
+    status: "success",
+    message: "Stock Trading Platform Backend is running 🚀",
+  });
+});
