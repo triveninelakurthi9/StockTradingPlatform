@@ -1,6 +1,6 @@
-# 🌐 Zerodha Clone
+# 📈 Stock Trading Platform
 
-Welcome to **Zerodha Clone**! This repository includes a clone of the popular stock trading platform, built using the MERN stack.
+Welcome to **Stock Trading Platform**! This project is a full-stack web application inspired by modern online trading platforms. Built using the MERN stack, it provides a secure and interactive environment where users can manage portfolios, place stock orders, and monitor their investments through an intuitive dashboard.
 
 ---
 
@@ -63,7 +63,7 @@ Follow these steps to set up the project in your local environment:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Jenil-Desai/zerodha-clone.git
+   git clone https://github.com/triveninelakurthi9/StockTradingPlatform.git
    ```
 2. Install dependencies for Backend, Frontend, and Dashboard.
 
@@ -135,7 +135,10 @@ Explore the unique features available in this application:
 
 We’d like to thank the following contributors and resources:
 
-- **[Apna College's Delta 3.0 Course](https://www.apnacollege.in/)** - Course resource.
+- **[Apna College's Sigma 6.0 Course](https://www.apnacollege.in/)** - Course resource.
+- This project is developed for educational purposes.
+- Inspired by the Zerodha trading platform.
+- Built while learning full-stack development using the MERN stack.
 
 ---
 
@@ -145,4 +148,4 @@ This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LIC
 
 ---
 
-### Enjoy exploring and contributing to Zerodha Clone!
+### Thank you for exploring and contributing to Stock Trading Platform!!
