@@ -24,7 +24,7 @@ Welcome to **Stock Trading Platform**! This project is a full-stack web applicat
 
 ---
 
-## 💻 Technologies
+## 💻 Tech Stack
 
 Below is a breakdown of the core technologies used in this project.
 
@@ -105,13 +105,17 @@ Follow these steps to set up the project in your local environment:
 
 ## 🎯 Features
 
-Explore the unique features available in this application:
+This application provides the following features:
 
-- **User Authentication**
-- **User Authorization**
-- **Orders Page**
-- **Dashboard**
-- **Frontend Clone**
+- Secure User Authentication (JWT)
+- User Authorization
+- Portfolio Dashboard
+- Holdings Management
+- Buy & Sell Stock Orders
+- Order Management
+- Responsive User Interface
+- RESTful API Integration
+- MongoDB Database Connectivity
 
 ---
 
