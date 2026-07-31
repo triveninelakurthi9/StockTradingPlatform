@@ -121,7 +121,7 @@ This application provides the following features:
 
 ## 🔗 Demo & Screenshots
 
-- [Demo](https://zerodha-clone-frontend.vercel.app)
+- [Demo](https://stock-trading-platform-nine.vercel.app/)
 - UserName : Demo
 - Password : Demo
 
