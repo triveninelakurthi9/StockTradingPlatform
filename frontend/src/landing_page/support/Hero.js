@@ -9,9 +9,7 @@ function Hero() {
       </div>
       <div className="row p-5 m-3">
         <div className="col-6 p-3">
-          <h1 className="fs-3">
-            Search for an answer or browse help topics to create a ticket
-          </h1>
+          <h1 className="fs-3">Search for an answer or browse help topics to create a ticket</h1>
           <input placeholder="Eg. how do I activate F&O" />
           <br />
           <a href="">Track account opening</a>
