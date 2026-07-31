@@ -10,7 +10,7 @@ const Positions = () => {
 
   useEffect(() => {
     axios
-      .get("https://zerodha-clone-backend-8nlf.onrender.com/positions/index", {
+      .get("https://stocktradingplatform-z16n.onrender.com/positions/index", {
         headers: {
           Authorization: user,
         },

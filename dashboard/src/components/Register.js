@@ -44,7 +44,7 @@ export default function Register() {
     }
 
     axios
-      .post("https://zerodha-clone-backend-8nlf.onrender.com/user/register", data, {
+      .post("https://stocktradingplatform-z16n.onrender.com/user/register", data, {
         headers: {
           "Content-Type": "application/json",
         },

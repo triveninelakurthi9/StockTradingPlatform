@@ -14,7 +14,7 @@ const BuyActionWindow = ({ uid }) => {
   const handleBuyClick = () => {
     axios
       .post(
-        "https://zerodha-clone-backend-8nlf.onrender.com/orders/create",
+        "https://stocktradingplatform-z16n.onrender.com/orders/create",
         {
           name: uid,
           qty: stockQuantity,
