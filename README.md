@@ -1,155 +1,116 @@
-# 📈 Stock Trading Platform
+# Stock Trading Platform
 
-Welcome to **Stock Trading Platform**! This project is a full-stack web application inspired by modern online trading platforms. Built using the MERN stack, it provides a secure and interactive environment where users can manage portfolios, place stock orders, and monitor their investments through an intuitive dashboard.
+A full-stack stock trading web application inspired by Zerodha, built using the MERN stack. It provides a secure, interactive environment where users can manage portfolios, place stock orders, and track investments through an intuitive dashboard.
 
----
-
-## 📑 Table of Contents
-
-1. [Overview](#-overview)
-2. [Technologies](#-technologies)
-3. [Packages & Libraries Used](#-packages--libraries-used)
-4. [Getting Started](#-getting-started)
-5. [Setup](#-setup)
-6. [Features](#-features)
-7. [Demo & Screenshots](#-demo--screenshots)
-8. [Acknowledgments](#-acknowledgments)
-9. [License](#-license)
+🔗 **Live Demo:** [stock-trading-platform-nine.vercel.app](https://stock-trading-platform-nine.vercel.app/)
+**Login:** Username: `Demo` · Password: `Demo`
 
 ---
 
-## 🌟 Overview
+## Table of Contents
 
-**Description**: A clone of the popular stock trading platform, Zerodha, built using the MERN stack.
-
----
-
-## 💻 Tech Stack
-
-Below is a breakdown of the core technologies used in this project.
-
-| 🌐 Web       |
-| ------------ |
-| **React.js** |
-| **Node.js**  |
-| **MongoDB**  |
+1. [Overview](#overview)
+2. [Tech Stack](#tech-stack)
+3. [Libraries Used](#libraries-used)
+4. [Features](#features)
+5. [Screenshots](#screenshots)
+6. [Getting Started](#getting-started)
+7. [Setup](#setup)
+8. [Acknowledgments](#acknowledgments)
+9. [License](#license)
 
 ---
 
-## 📦 Packages / Libraries Used
+## Overview
 
-This project uses the following essential libraries and packages:
+A stock trading platform clone that replicates core functionality of platforms like Zerodha, including portfolio management, order placement, and real-time dashboard tracking — built end-to-end using the MERN stack.
+
+## Tech Stack
+
+| Layer     | Technology |
+| --------- | ---------- |
+| Frontend  | React.js   |
+| Backend   | Node.js, Express.js |
+| Database  | MongoDB    |
+
+## Libraries Used
 
 | Package / Library  | Purpose                       |
-| ------------------ | ----------------------------- |
-| `Bootstrap 5.3`    | Responsive design             |
-| `Material UI`      | UI Components                 |
-| `Express.js`       | Backend framework             |
-| `Mongoose`         | MongoDB object modeling       |
-| `Bcrypt`           | Password hashing              |
-| `Jwt`              | JSON Web Token                |
-| `Charts.js`        | Data visualization            |
-| `Axios`            | HTTP client                   |
-| `React Router Dom` | Client-side routing           |
-| `Passport`         | Authentication                |
-| `cors`             | Cross-origin resource sharing |
-| `Body-Parser`      | Body parsing middleware       |
+| ------------------- | ----------------------------- |
+| Bootstrap 5.3        | Responsive design              |
+| Material UI          | UI components                  |
+| Mongoose              | MongoDB object modeling        |
+| Bcrypt                | Password hashing               |
+| JWT                   | Authentication tokens          |
+| Chart.js              | Data visualization             |
+| Axios                 | HTTP client                    |
+| React Router DOM      | Client-side routing            |
+| Passport              | Authentication middleware      |
+| CORS                  | Cross-origin resource sharing  |
+| Body-Parser           | Request body parsing           |
 
----
+## Features
 
-## 🚀 Getting Started
+- Secure user authentication and authorization (JWT)
+- Portfolio dashboard with holdings overview
+- Buy and sell stock order placement
+- Order management and history
+- RESTful API integration between frontend and backend
+- Responsive UI across devices
+- MongoDB-backed persistent data storage
 
-Follow these steps to set up the project in your local environment:
+## Screenshots
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/triveninelakurthi9/StockTradingPlatform.git
-   ```
-2. Install dependencies for Backend, Frontend, and Dashboard.
+| Home Page                             | Dashboard                              | About Page                         |
+| -------------------------------------- | --------------------------------------- | ----------------------------------- |
+| ![Home](./Screenshot/Homepage.jpeg)    | ![Dashboard](./Screenshot/Dashboard.jpeg) | ![About](./Screenshot/About.jpeg) |
 
-   ```bash
-   cd backend
-   npm install
-   ```
+| Products Page                         | Pricing Page                          | Support Page                        |
+| --------------------------------------- | --------------------------------------- | ------------------------------------- |
+| ![Products](./Screenshot/Product.jpeg) | ![Pricing](./Screenshot/Pricing.jpeg) | ![Support](./Screenshot/Support.jpeg) |
 
-   ```bash
-   cd ../dashboard
-   npm install
-   ```
+## Getting Started
 
-   ```bash
-   cd ../frontend
-   npm install
-   ```
+Clone the repository:
 
-3. Configure environment variables for the backend. Create `.env` in the `backend` folder with following :
-   ```env
-   PORT=3000
-   MONGO_URL="Your Mongo Database Url"
-   secret="Your Unique JWT Secret"
-   ```
-4. Run the web application:
-   ```bash
-   npm start
-   ```
+```bash
+git clone https://github.com/triveninelakurthi9/StockTradingPlatform.git
+```
 
----
+Install dependencies for backend, dashboard, and frontend:
 
-## ⚙️ Setup
+```bash
+cd backend && npm install
+cd ../dashboard && npm install
+cd ../frontend && npm install
+```
 
-1. Go to `localhost:3000`.
-2. Register a new user.
-3. Explore the dashboard.
+Create a `.env` file inside the `backend` folder:
 
----
+```env
+PORT=3000
+MONGO_URL="your_mongodb_connection_url"
+secret="your_jwt_secret"
+```
 
-## 🎯 Features
+Start the application:
 
-This application provides the following features:
+```bash
+npm start
+```
 
-- Secure User Authentication (JWT)
-- User Authorization
-- Portfolio Dashboard
-- Holdings Management
-- Buy & Sell Stock Orders
-- Order Management
-- Responsive User Interface
-- RESTful API Integration
-- MongoDB Database Connectivity
+## Setup
 
----
+1. Navigate to `localhost:3000`.
+2. Register a new user account.
+3. Explore the dashboard, place orders, and manage your portfolio.
 
-## 🔗 Demo & Screenshots
+## Acknowledgments
 
-- [Demo](https://stock-trading-platform-nine.vercel.app/)
-- UserName : Demo
-- Password : Demo
-
-| Mock Up                            | Home Page                             | Dashboard                              | About Page                         |
-| ---------------------------------- | ------------------------------------- | -------------------------------------- | ---------------------------------- |
-| ![Mockup](./Screenshot/mockup.png) | ![Mockup](./Screenshot/Homepage.jpeg) | ![Mockup](./Screenshot/Dashboard.jpeg) | ![Mockup](./Screenshot/About.jpeg) |
-
-| Products Page                        | Pricing Page                         | Support Page                         |
-| ------------------------------------ | ------------------------------------ | ------------------------------------ |
-| ![Mockup](./Screenshot/Product.jpeg) | ![Mockup](./Screenshot/Pricing.jpeg) | ![Mockup](./Screenshot/Support.jpeg) |
-
----
-
-## 🙏 Acknowledgments
-
-We’d like to thank the following contributors and resources:
-
-- **[Apna College's Sigma 6.0 Course](https://www.apnacollege.in/)** - Course resource.
-- This project is developed for educational purposes.
+- Built as part of a learning project while studying full-stack development with the MERN stack.
 - Inspired by the Zerodha trading platform.
-- Built while learning full-stack development using the MERN stack.
+- Developed for educational purposes.
 
----
+## License
 
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
-
----
-
-### Thank you for exploring and contributing to Stock Trading Platform!!
+Licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
